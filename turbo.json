@@ -4,7 +4,7 @@
   "pipeline": {
     "build": {
       "env": [
-        "DATABASE_URL",
+        "DATABASE_PRISMA_URL",
         "DIRECT_URL",
         "GOOGLE_CLIENT_ID",
         "GOOGLE_CLIENT_SECRET",
