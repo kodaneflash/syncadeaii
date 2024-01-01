@@ -11,5 +11,10 @@
       "path": "/api/resend/all",
       "schedule": "0 0 * * 0"
     }
-  ]
+  ],
+  "functions": {
+    "api/google/threads": {
+      "maxDuration": 10
+    }
+  }
 }
