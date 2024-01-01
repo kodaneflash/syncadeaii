@@ -19,6 +19,6 @@ export const LegalPost = defineDocumentType(() => ({
 }));
 
 export default makeSource({
-  contentDirPath: "legal",
+  contentDirPath: "apps/web/legal", // Updated path
   documentTypes: [LegalPost],
 });
